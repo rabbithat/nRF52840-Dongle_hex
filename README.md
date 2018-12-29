@@ -46,7 +46,7 @@ programmed and ready to use.  That's all there is to it!
 To power the dongle you may simply plug it into any USB
 port.  If you have installed Version 2, you can talk to 
 the REPL wirelessly and/or you may talk to it over a 
-serial connection to pins P0.29 and P0.31.
+serial connection to pins P0.29 (Rx) and P0.31 (Tx).
 
 
 -----------------------------------------------------------------------
