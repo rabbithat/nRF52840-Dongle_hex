@@ -34,8 +34,9 @@ SWDIO on the DK connects to SWDIO on the dongle.
 
 SWDCLK on the DK connects to SWDCLK on the dongle.
 
-Then plug in the DK's to your computer using the USB
-connector.  A JLINK virtual drive will appear on your computer's 
+Then plug in the DK to your computer using its USB
+connector.  Doing so will power both the DK and the dongle.
+A JLINK virtual drive will appear on your computer's 
 directory.  Simply drag and drop the HEX file from this
 repository onto the JLINK virtual drive and wait a short 
 while for the programming to finish.  That's all there is 
