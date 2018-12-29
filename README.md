@@ -7,6 +7,6 @@ access on the dongle pinout.
 
 Note: at present the hex file here provides no USB support, so the current choices of access to the REPL 
 on the dongle are either 1.  The wireless REPL (https://github.com/rabbithat/nRF52_wireless_Forth_REPL), 
-which I include in the hex file, or 2. Serial access over the above two pins.  If you prefer to use different 
-pins, you can select the ones you want using the FORTH code (https://github.com/rabbithat/nRF52_change_UART_pins) 
+which I include in the hex file, or 2. serial access over the above two pins.  If you prefer to use different 
+pins, you can very easily select the ones you want using the FORTH code (https://github.com/rabbithat/nRF52_change_UART_pins) 
 already included in the hex file.
