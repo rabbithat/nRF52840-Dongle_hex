@@ -10,3 +10,5 @@ on the dongle are either 1.  The wireless REPL (https://github.com/rabbithat/nRF
 which I include in the hex file, or 2. serial access over the above two pins.  If you prefer to use different 
 pins, you can very easily select the ones you want using the FORTH code (https://github.com/rabbithat/nRF52_change_UART_pins) 
 already included in the hex file.
+
+To power the dongle, either power it with 5v over the USB connector, or else provide 3.3v directly to the VDD_OUT pin.
