@@ -49,6 +49,22 @@ port.  If you have installed Version 2, you can talk to
 the REPL wirelessly and/or you may talk to it over a 
 serial connection to pins P0.29 (Rx) and P0.31 (Tx).
 
+-----------------------------------------------------------------------
+How to access the wireless REPL on the dongle:
+-----------------------------------------------------------------------
+
+The easiest way would be to load supreme.hex from: 
+
+https://github.com/rabbithat/nRF52840-DK_easy
+
+onto an nRF52840-DK (or some other nRF52840 if you prefer).  Then open
+a serial terminal to the DK and type 'terminal' at the REPL prompt.
+The DK will immediately connect to the dongle, and from that point
+forward it will be exactly the same as if you were directly connected
+to the dongle.  Everything you type will be typed into the dongle's REPL,
+and everything the dongle's REPL prints will appear on your screen the
+same as if you were directly connected to it.
+
 
 -----------------------------------------------------------------------
 Revision History:
