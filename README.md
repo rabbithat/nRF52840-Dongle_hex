@@ -12,3 +12,17 @@ on the dongle are either 1.  The wireless REPL (https://github.com/rabbithat/nRF
 which I include in the hex file, or 2. serial access over the above two pins.  If you prefer to use different 
 pins, you can very easily select the ones you want using the FORTH code (https://github.com/rabbithat/nRF52_change_UART_pins) 
 already included in the hex file.
+
+-----------------------------------------------------------------------
+Revision History:
+-----------------------------------------------------------------------
+
+Version 2 includes the following definition:
+: init #29 makeNewUartRxPin #31 makeNewUartTxPin remote ;
+So that it will immediately activate the wireless REPL after powering up.
+
+Version 1 includes the following definition:
+: init #29 makeNewUartRxPin #31 makeNewUartTxPin ;
+This makes pin P0.29 is the Serial Rx pin, and pin P0.31 is the Serial Tx pin.
+By default it does not start the wireless REPL, but you may do so at
+any time by typing 'remote' into the REPL.
