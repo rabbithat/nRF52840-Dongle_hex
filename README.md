@@ -15,6 +15,7 @@ already included in the hex file.
 
 -----------------------------------------------------------------------
 Installing the HEX file onto the Dongle:
+-----------------------------------------------------------------------
 
 In theory it could be uploaded to a new Dongle over the USB connector 
 using the Nordic software tools.  However, I installed it using an 
