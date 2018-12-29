@@ -11,4 +11,4 @@ which I include in the hex file, or 2. serial access over the above two pins.  I
 pins, you can very easily select the ones you want using the FORTH code (https://github.com/rabbithat/nRF52_change_UART_pins) 
 already included in the hex file.
 
-To power the dongle, either power it with 5v over the USB connector, or else provide 3.3v to the VDD_OUT pin.  Despite its name, the Nordic schematic shows that the VDD_OUT pin is connected directly to VDD on the chip.
+To power the dongle, either power it with 5v over the USB connector, or else provide 3.3v to the VDD_OUT pin.  Despite its name, the Nordic schematic (see copy included here in this repository) shows that the VDD_OUT pin is connected directly to VDD on the chip.
