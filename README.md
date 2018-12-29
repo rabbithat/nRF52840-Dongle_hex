@@ -39,8 +39,14 @@ connector.  Doing so will power both the DK and the dongle.
 A JLINK virtual drive will appear on your computer's 
 directory.  Simply drag and drop the HEX file from this
 repository onto the JLINK virtual drive and wait a short 
-while for the programming to finish.  That's all there is 
-to it!  
+while for the programming to finish.  Afterward, unplug
+the USB connection to your computer and then remove the
+temporary dupont wire connections.  Your dongle is now
+programmed and ready to use.  That's all there is to it!
+To power the dongle you may simply plug it into any USB
+port.  If you have installed Version 2, you can talk to 
+the REPL wirelessly and/or you may talk to it over a 
+serial connection to pins P0.29 and P0.31.
 
 
 -----------------------------------------------------------------------
