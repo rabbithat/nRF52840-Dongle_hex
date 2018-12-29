@@ -41,7 +41,7 @@ A JLINK virtual drive will appear on your computer's
 directory.  Simply drag and drop the HEX file from this
 repository onto the JLINK virtual drive and wait a short 
 while for the programming to finish.  Afterward, unplug
-the USB connection to your computer and then remove the
+the USB connection from your computer and then remove the
 temporary dupont wire connections.  Your dongle is now
 programmed and ready to use.  That's all there is to it!
 To power the dongle you may simply plug it into any USB
