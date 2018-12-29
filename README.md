@@ -23,6 +23,8 @@ Version 2 includes the following definition:
 
 So that it will immediately activate the wireless REPL after powering up.
 
+---------------------------------------------------------------------------
+
 Version 1 includes the following definition:
 
 : init #29 makeNewUartRxPin #31 makeNewUartTxPin ;
