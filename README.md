@@ -7,4 +7,5 @@ includes the radio REPL code.
 Note: at present, no USB support, so the current choices of access to the REPL on it are
 either 1.  The radio REPL, which I include in the hex file, or 2. Serial access over
 the above two pins.  If you prefer to use different pins, you can select the ones you
-want using the FORTH code I included in the hex.
+want using the FORTH code (https://github.com/rabbithat/nRF52_change_UART_pins) already included 
+in the hex file in this repository.
