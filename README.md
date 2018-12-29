@@ -14,6 +14,35 @@ pins, you can very easily select the ones you want using the FORTH code (https:/
 already included in the hex file.
 
 -----------------------------------------------------------------------
+Installing the HEX file onto the Dongle:
+
+In theory it could be uploaded to a new Dongle over the USB connector 
+using the Nordic software tools.  However, I installed it using an 
+nRF52840-DK instead.  To install it using a DK, make the following  
+temporary connections using Dupont jumper wires while the DK is
+unplugged and powered off:
+
+VDD on the DK connects to VDD_OUT on the dongle.
+
+VTG on the DK connects to VDD on the DK.
+
+GND on the DK connects to GND on the dongle.
+
+GND_DETECT on the DK connects to GND on the DK.
+
+SWDIO on the DK connects to SWDIO on the dongle.
+
+SWDCLK on the DK connects to SWDCLK on the dongle.
+
+Then plug in the DK's to your computer using the USB
+connector.  A JLINK virtual drive will appear on your computer's 
+directory.  Simply drag and drop the HEX file from this
+repository onto the JLINK virtual drive and wait a short 
+while for the programming to finish.  That's all there is 
+to it!  
+
+
+-----------------------------------------------------------------------
 Revision History:
 -----------------------------------------------------------------------
 
