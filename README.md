@@ -57,7 +57,7 @@ Version 2 includes the following definition:
 
 : init #29 makeNewUartRxPin #31 makeNewUartTxPin remote ;
 
-So that it will immediately activate the wireless REPL after powering up.
+so that the dongle will immediately activate the wireless REPL after powering up.
 
 ---------------------------------------------------------------------------
 
